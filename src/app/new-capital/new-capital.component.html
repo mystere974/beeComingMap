@@ -1,0 +1,26 @@
+<div class="form-card">
+  <h2>Nouvelle capitale</h2>
+  <form *ngIf="capitalForm" [formGroup]="capitalForm" (ngSubmit)="onSubmitForm()">
+          <label for="name">Nom de la capitale:<br>
+              <input type="text" id="name" formControlName="name">
+          </label>
+          <label for="population">Population:<br>
+              <input type="text" id="population" formControlName="population">
+          </label>
+          <label for="country">Pays:<br>
+              <input type="text" id="country" formControlName="country">
+          </label>
+          <div formGroupName="center" class="form-container">
+              <label for="lat">latitude:<br>
+                  <input type="number" id="lat" formControlName="lat">
+              </label><br>
+              <label for="lng">longitude:<br>
+                  <input type="number" id="lng" formControlName="lng">
+              </label>
+          </div>
+
+      <div class="buttons">
+          <button type="submit">Valider</button>
+      </div>
+  </form>
+</div>

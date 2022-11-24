@@ -1,0 +1,35 @@
+#map {
+  height: 50vh;
+}
+
+button {
+  height:70%;
+  width: 10vh;
+  font-weight: 700;
+  background-color: #282828;
+  color: #fff;
+  border-radius: 11rem;
+  border: none;
+  text-transform: uppercase;
+  padding: inherit;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #282828;
+  border: 1px solid #282828;
+}
+
+.backButton {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding: 1vh;
+}
+
+.capitalData {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vh;
+  padding: 1vh;
+}

@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3px;
+}
+button {
+  height:70%;
+  width: 10vh;
+  font-weight: 700;
+  color: #fff;
+  background-color: #282828;
+  border-radius: 10rem;
+  border: none;
+  text-transform: uppercase;
+  padding: 7px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #282828;
+  border: 1px solid #282828;
+}
+
+.buttons {
+margin: 15px 0 15px 0;
+}

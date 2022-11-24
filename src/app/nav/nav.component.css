@@ -1,0 +1,32 @@
+* {
+  height: 5vh;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #282828;
+}
+
+button {
+  height:70%;
+  width: 10vh;
+  font-weight: 700;
+  color: #282828;
+  border-radius: 10rem;
+  border: none;
+  text-transform: uppercase;
+  padding-right: 80px;
+}
+
+button:hover {
+  background-color: #282828;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+h1 {
+  color: #fff;
+}

@@ -1,0 +1,70 @@
+{
+  "capitals": [
+    {
+      "name": "Paris",
+      "population": "2,16 Millions",
+      "country": "France",
+      "zoom": 10,
+      "center": {
+        "lat": 48.856614,
+        "lng": 2.3522219
+      },
+      "id": 1
+    },
+    {
+      "name": "Berlin",
+      "population": "3,64 millions",
+      "country": "Allemagne",
+      "zoom": 10,
+      "center": {
+        "lat": 52.516372,
+        "lng": 13.397259
+      },
+      "id": 3
+    },
+    {
+      "name": "Rio de janeiro",
+      "population": "6,75 millions",
+      "country": "Brésil",
+      "zoom": 10,
+      "center": {
+        "lat": -22.90212,
+        "lng": -43.17298
+      },
+      "id": 4
+    },
+    {
+      "name": "Pékin",
+      "population": "21,54 millions",
+      "country": "Chine",
+      "zoom": 10,
+      "center": {
+        "lat": 39.90568,
+        "lng": 116.4037
+      },
+      "id": 5
+    },
+    {
+      "name": "Tokyo",
+      "population": "13,96 millions",
+      "country": "Japon",
+      "zoom": 10,
+      "center": {
+        "lat": 35.6794327,
+        "lng": 139.7712666
+      },
+      "id": 6
+    },
+    {
+      "name": "Washington DC",
+      "population": "712 816",
+      "country": "Amérique du Nord",
+      "zoom": 10,
+      "center": {
+        "lat": 38.889248,
+        "lng": -77.050636
+      },
+      "id": 7
+    }
+  ]
+}

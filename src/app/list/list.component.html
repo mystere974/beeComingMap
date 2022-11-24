@@ -1,0 +1,31 @@
+<div class="content">
+  <div *ngIf="capitals?.length === 0; else capitalsList">
+
+      <h1>Aucune capitale enregistrée</h1>
+
+  </div>
+
+  <ng-template #capitalsList>
+      <div class="capital">
+          <table>
+              <tr>
+                  <th class="tableElement">Capitale</th>
+                  <th class="tableElement">Population</th>
+                  <th class="tableElement">Pays</th>
+              </tr>
+              <tr *ngFor="let capital of capitals">
+                  <td class="tableElement">{{ capital.name }}</td>
+                  <td class="tableElement">{{ capital.population }}</td>
+                  <td class="tableElement">{{ capital.country }}</td>
+                  <td><img src="../../assets/logo/delete.png" (click)="onDeleteCapital(capital.id)"></td>
+                  <td><img src="../../assets/logo/edit.png" routerLink="/edit/{{capital.id}}"></td>
+              </tr>
+          </table>
+      </div>
+  </ng-template>
+</div>
+
+<div class="addButton   ">
+  <button routerLink="/create">Ajouter une capitale</button>
+</div>
+
